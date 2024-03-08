@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">          
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="base.definition" template="/WEB-INF/layouts/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/basefragments/header.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/basefragments/footer.jsp" />  
+    </definition>  
+ 
+ 	<!-- Home Page  -->
+    <definition name="home" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/home.jsp" />  
+    </definition>   
+    
+     	<!-- Registration Page  -->
+    <definition name="registration" extends="base.definition">  
+        <put-attribute name="title" value="Registration" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/registration.jsp" />  
+    </definition>  
+    
+       <!-- User List View  -->
+    <definition name="userlist" extends="base.definition">  
+        <put-attribute name="title" value="User View List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/userlistview.jsp" />  
+    </definition> 
+     
+       
+         <!-- Login Page  -->
+    <definition name="login" extends="base.definition">  
+        <put-attribute name="title" value="Login" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/login.jsp" />  
+    </definition> 
+    
+    
+      	<!-- Product Page  -->
+    <definition name="product" extends="base.definition">  
+        <put-attribute name="title" value="product" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/productview.jsp" />  
+    </definition>  
+    
+       <!-- Product List View  -->
+    <definition name="productlist" extends="base.definition">  
+        <put-attribute name="title" value="product List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/productlistview.jsp" />  
+    </definition>
+    
+    
+       
+      	<!-- Category Page  -->
+    <definition name="category" extends="base.definition">  
+        <put-attribute name="title" value="category" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/categoryview.jsp" />  
+    </definition>  
+    
+       <!-- Category List View  -->
+    <definition name="categorylist" extends="base.definition">  
+        <put-attribute name="title" value="category List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/categorylistview.jsp" />  
+    </definition>
+    
+           	<!-- Order Page  -->
+    <definition name="order" extends="base.definition">  
+        <put-attribute name="title" value="Order" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/orderview.jsp" />  
+    </definition>  
+    
+       <!-- Order List View  -->
+    <definition name="orderlist" extends="base.definition">  
+        <put-attribute name="title" value="Order List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/orderlistview.jsp" />  
+    </definition>
+    
+       <!-- Payment View  -->
+    <definition name="payment" extends="base.definition">  
+        <put-attribute name="title" value="Payment View" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/paymentview.jsp" />  
+    </definition> 
+    
+      <!-- Payment List View  -->
+    <definition name="paymentlist" extends="base.definition">  
+        <put-attribute name="title" value="Payment View List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/paymentlistview.jsp" />  
+    </definition> 
+    
+      <!-- Sales List View  -->
+    <definition name="saleslist" extends="base.definition">  
+        <put-attribute name="title" value="Sales View List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/saleslist.jsp" />  
+    </definition>
+    
+          <!-- Bill View  -->
+    <definition name="bill" extends="base.definition">  
+        <put-attribute name="title" value="Bill View" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/billview.jsp" />  
+    </definition> 
+    
+      <!-- Bill List View  -->
+    <definition name="billlist" extends="base.definition">  
+        <put-attribute name="title" value="Bill List View" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/billlistview.jsp" />  
+    </definition> 
+    
+       <!-- Cart list View  -->
+    <definition name="cartlist" extends="base.definition">  
+        <put-attribute name="title" value="Cart List View" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/cartlistview.jsp" />  
+    </definition> 
+    
+       <!-- order cart view list View  -->
+    <definition name="ordercartview" extends="base.definition">  
+        <put-attribute name="title" value="Cart Order View" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/ordercartview.jsp" />  
+    </definition> 
+    
+    
+    
+   
+</tiles-definitions> 

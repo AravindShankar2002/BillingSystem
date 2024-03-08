@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.home-content-wrapper{
+	background-image: url('../image/Bg.webp');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+
+.overlay-box{
+padding: 200px 0px;
+box-sizing: border-box;
+background: rgba(0, 0, 0, 0.5);
+height: 100%;
+}
+.container{
+width: 1200px;
+margin: 0px auto;
+}
+.welcome-text{
+color:#FFF;
+font-size: 75px;
+font-family: raleway-bold;
+line-height: 90px;
+}
